@@ -1,0 +1,14 @@
+# Ignore local dependency installs and generated output inside the nested project
+SnakesLucifer-GPT/.git
+SnakesLucifer-GPT/**/node_modules
+SnakesLucifer-GPT/**/dist
+SnakesLucifer-GPT/**/build
+SnakesLucifer-GPT/**/coverage
+SnakesLucifer-GPT/**/*.log
+SnakesLucifer-GPT/**/*.env
+SnakesLucifer-GPT/**/*.local
+SnakesLucifer-GPT/**/*.swp
+
+# Common root ignores
+node_modules
+.DS_Store
